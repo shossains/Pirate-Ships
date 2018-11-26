@@ -1,0 +1,13 @@
+.tile {
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+.tile:nth-of-type(even) {
+    background-color: black;
+}
+
+.tile:nth-of-type(odd) {
+    background-color: grey;
+}
