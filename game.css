@@ -1,8 +1,14 @@
 .tile {
     float: left;
-    width: 30px;
-    height: 30px;
-    border: 1px;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.tile:hover {
+    background-color: black;
+    cursor: pointer;
 }
 
 .tile:nth-of-type(even) {
@@ -10,5 +16,5 @@
 }
 
 .tile:nth-of-type(odd) {
-    background-color: grey;
+    background-color: azure;
 }
