@@ -2,10 +2,11 @@
     float: left;
     width: 30px;
     height: 30px;
+    border: 1px;
 }
 
 .tile:nth-of-type(even) {
-    background-color: black;
+    background-color: white;
 }
 
 .tile:nth-of-type(odd) {
