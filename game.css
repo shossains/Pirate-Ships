@@ -46,7 +46,7 @@
 }
 
 .rowtop :nth-child(n):hover{
-    cursor: no-drop;
+    cursor: default;
     background-color: transparent;
     opacity: 1;
 }
@@ -62,7 +62,7 @@
 }   
 
 .tile:hover {
-    cursor: pointer;
+    cursor: crosshair;
     background-color: rgb(197, 108, 193);
     opacity: 0.5;
 }
