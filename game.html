@@ -5,181 +5,183 @@
         <link rel="stylesheet" href="game.css">
     </head>
 
-    <body background="image.jpg">
-        <div id="top-left">
-            <form action="/help" method="get">
-                <button type="submit"><img src="help.png" alt=""/></button>
-            </form>
-        </div>
+    <body>
+        <div class="main">
+            <div class="top-left">
+                <form action="/help" method="get">
+                    <button type="submit"><img src="help.png" alt=""/></button>
+                </form>
+            </div>
 
-        <div id="top-left">
-            <form action="/mute" method="get">
-                <button type="submit"><img src="mute.png" alt=""/></button>
-            </form>
-        </div>
+            <div class="top-left">
+                <form action="/mute" method="get">
+                    <button type="submit"><img src="mute.png" alt=""/></button>
+                </form>
+            </div>
 
-        <div id="top-right">
-            <form action="/exit" method="get">
-                <button type="submit"><img src="exit.png" alt=""/></button>
-            </form>
-        </div>
-        
-        <div id="chatbox">
-			<div class="test-yellow-left">
-				<p>Hello!</p>
-			</div>
-			
-			<div class="test-orange-right">
-				<p>Hi There!</p>
-			</div>
-        </div>
-        <h2 id="counter">You have # seconds left</h2>
-        <h2 id="player">*Name of player*</h2>
-        <h2 id="player">*Name of opponent*</h2>
-        <h3 id="statustext">Your turn! Choose an enemy square!</h3>
-        
-        <div class="row">
-            <div class="tile"></div>
-            <div class="tile">1</div>
-            <div class="tile">2</div>
-            <div class="tile">3</div>
-            <div class="tile">4</div>
-            <div class="tile">5</div>
-            <div class="tile">6</div>
-            <div class="tile">7</div>
-            <div class="tile">8</div>
-            <div class="tile">9</div>
-            <div class="tile">10</div>
-        </div>
-        <div class= row>
-            <div class="tile">A</div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-        </div>
-        <div class= row>
-            <div class="tile">B</div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-        </div>
-        <div class= row>
-            <div class="tile">C</div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-        </div>
-        <div class="row">
-            <div class="tile">D</div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-        </div>
-        <div class= row>
-            <div class="tile">E</div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-        </div>
-        <div class= row>
-            <div class="tile">F</div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-        </div>
-        <div class= row>
-            <div class="tile">G</div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-        </div>
-        <div class= row>
-            <div class="tile">H</div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-        </div>
-        <div class= row>
-            <div class="tile">I</div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-        </div>
-        <div class= row>
-            <div class="tile">J</div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-        </div>
+            <div class="top-right">
+                <form action="/exit" method="get">
+                    <button type="submit"><img src="exit.png" alt=""/></button>
+                </form>
+            </div>
+            
+            <div class="chatbox">
+                <div class="test-yellow-left">
+                    <p>Hello!</p>
+                </div>
+                
+                <div class="test-orange-right">
+                    <p>Hi There!</p>
+                </div>
+            </div>
+            <h2 id="counter">You have # seconds left</h2>
+            <h2 id="player">*Name of player*</h2>
+            <h2 id="player">*Name of opponent*</h2>
+            <h3 id="statustext">Your turn! Choose an enemy square!</h3>
+            
+            <div class="row">
+                <div class="tile"></div>
+                <div class="tile">1</div>
+                <div class="tile">2</div>
+                <div class="tile">3</div>
+                <div class="tile">4</div>
+                <div class="tile">5</div>
+                <div class="tile">6</div>
+                <div class="tile">7</div>
+                <div class="tile">8</div>
+                <div class="tile">9</div>
+                <div class="tile">10</div>
+            </div>
+            <div class= row>
+                <div class="tile">A</div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class= row>
+                <div class="tile">B</div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class= row>
+                <div class="tile">C</div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class="row">
+                <div class="tile">D</div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class= row>
+                <div class="tile">E</div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class= row>
+                <div class="tile">F</div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class= row>
+                <div class="tile">G</div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class= row>
+                <div class="tile">H</div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class= row>
+                <div class="tile">I</div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class= row>
+                <div class="tile">J</div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+         </div> 
     </body>
 </html>

@@ -1,5 +1,7 @@
-body {
-    background: url('/pictures/bg70.gif');
+.main {
+    background: url('../Pictures/bg.gif');
+    background-size: 1000px;
+    background-repeat: no-repeat;
 }
 
 .row{
@@ -11,16 +13,15 @@ body {
     float: left;
     width: 50px;
     height: 50px;
-    background-color: azure;
+    
     text-align: center;
     font-size: 20px;
     vertical-align: center;
     border-style: solid;
     border-width: 1px;
-    opacity: 90%;
 }
 
 .tile:hover {
-    background-color: lightgray;
+   
     cursor: pointer;
 }
