@@ -1,3 +1,7 @@
+html {
+    user-select: none;
+}
+
 .main {
     position: fixed;
     top: 50%;
@@ -67,12 +71,20 @@
     opacity: 0.5;
 }
 
-.tile:active {
+.tile:enabled {
     background-image: url('../Pictures/cross.png');
     background-size: 50px 50px;
     background-repeat: no-repeat;
     pointer-events:none;
 }
+
+.tile:disabled {
+    background-image: url('../Pictures/blakcdot.png');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    pointer-events:none;
+}
+
 
 .tilesmall {
     float: left;
