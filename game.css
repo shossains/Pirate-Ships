@@ -35,7 +35,7 @@
 }
 
 .row :nth-child(1):hover{
-    cursor: no-drop;
+    cursor: default;
     background-color: transparent;
     opacity: 1;
 }
@@ -67,6 +67,13 @@
     opacity: 0.5;
 }
 
+.tile:active {
+    background-image: url('../Pictures/cross.png');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    pointer-events:none;
+}
+
 .tilesmall {
     float: left;
     width: 30px;
@@ -94,4 +101,8 @@
 .text {
     font-family: 'Almendra SC';
     float: left;
+}
+
+.count {
+        
 }
