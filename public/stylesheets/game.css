@@ -8,7 +8,7 @@ html {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background: url('Pictures/bg.gif');
+    background: url('../images/bg.gif');
     background-size: 1500px 800px;
     background-repeat: no-repeat;
     width: 1500px;
