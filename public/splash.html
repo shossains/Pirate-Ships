@@ -2,18 +2,27 @@
 <html>
     <head>
         <title>Pirate Ships</title>
-        <link rel="stylesheet" href="stylesheets/splash.css">
+        <link rel="icon" href="../public/images/icon.png">
+        <link href='https://fonts.googleapis.com/css?family=Almendra SC' rel='stylesheet'>
+        <link rel="stylesheet" href="../public/stylesheets/style.css">
     </head>
 
-    <body background="image.jpg">
-        <div id="top-corner"># Players online</div> //left
-        <div id="top-corner">??</div> //middle
-        <div id="top-corner"># of wins</div> //right
+    <body>
+        <div class="main">
+            <div class="top">
+                <div class="left"><h2 class="text"># Players online</h2></div>
+                <div class="middle"><h2 class="text">??</h2></div>
+                <div class="right "><h2 class="text"># of wins</h2></div>
+            </div>
 
-        <div id="button">
-            <form action="/play" method="get">
-                <button type="submit">BATTLE!</button> //play button
-            </form>
+
+            <div class="title"></div>
+
+            <div class="bottom">
+                <div>
+                    <a href="#" class="button" type="submit">BATTLE!</a>
+                </div>
+            </div>
         </div>
     </body>
 </html>
