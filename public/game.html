@@ -5,9 +5,10 @@
         <link rel="icon" href="../public/images/icon.png">
         <link href='https://fonts.googleapis.com/css?family=Almendra SC' rel='stylesheet'>
         <link rel="stylesheet" href="../public/stylesheets/game.css">
+        <script src="../public/javascripts/game.js"></script>
     </head>
 
-    <body>
+    <body onload="grid()">
         <div class="main">
             <div class="top left">
                 <form action="/help" method="get">
@@ -43,6 +44,8 @@
             <h2 class="text" id="player">*Name of opponent*</h2>
             <h3 class="text" id="statustext">Your turn! Choose an enemy square!</h3>
 
+
+            <div><table id="tb1"></table></div>
             <div class= "grid">
                 <div class="row rowtop nohover">
                     <div class="tile"></div>
